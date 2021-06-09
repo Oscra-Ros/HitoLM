@@ -1,0 +1,29 @@
+#sombreado{
+    color: red;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+#objeto{
+    background-color: rosybrown;
+    padding: 10px;
+}
+
+#em{
+    font-size: 5em;   
+}
+
+#ex{
+    font-size: 8ex;   
+}
+
+#porcentaje{
+    font-size: 50%;   
+}
+
+/* Em --> este tipo de unidad hace que el tamaño de la fuente sea siempre x cantidad de veces la fuente normal. Es decir, si le ponemos un 5, la fuente será 5 veces el tamaño por defecto de la letra
+
+    Ex-->  Se calcula en función del tamaño de la letra x minuscula. Es decir, 8ex es 8 veces la x minúscula.
+    
+    %--> Este tipo de medida se calcula en función del tamaño asignado al elemento padre
+
+    */

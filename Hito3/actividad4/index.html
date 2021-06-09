@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 4</title>
+</head>
+<body>
+    
+    <form name="nombreform">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+
+        <br>
+
+        <label for="ciudades">Ciudades</label>
+        <input list="ciudad" id="ciudades">
+
+        <datalist id="ciudad">
+
+            <option value="Madrid">Madrid</option>
+            <option value="Barcelona">Barcelona</option>
+            <option value="Valencia">Valencia</option>
+
+        </datalist>
+
+        <br>
+
+        <label for="dam">DAM</label>
+        <input type="radio" id="dam" value="Dam" name="curso">
+
+        <label for="daw">DAW</label>
+        <input type="radio" id="daw" value="Daw" name="curso">
+
+        <label for="asir">ASIR</label>
+        <input type="radio" id="asir" value="Asir" name="curso">
+
+        <br>
+
+        <label for="fechaini">Fecha Inicio</label>
+        <input type="date" id="fechaini">
+
+        <br> 
+
+        <label for="priva">Aceptar politica de privacidad</label>
+        <input type="checkbox" id="priva" required>
+
+        <br>
+
+        <input type="button" value="enviar" onclick="recoger()">
+
+    </form>
+
+    <script src="codigo.js"></script>
+
+</body>
+</html>
